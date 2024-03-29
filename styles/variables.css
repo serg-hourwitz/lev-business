@@ -1,0 +1,20 @@
+:root {
+  /* fonts */
+  --ff-primary: "Geologica";
+  --fs-primary: 16px;
+  --fs-secondary: 14px;
+  --fs-big: 30px;
+  --fs-single: 20px;
+  --fs-mob: 26px;
+  --fs-mob-small: 12px;
+  --fw-primary: 300;
+  --fw-secondary: 200;
+  --fw-bold: 400;
+  /* colors */
+  --c-black: #1e1e1e;
+  --c-white: #ffffff;
+  --c-dark-grey: #282929;
+  --c-gradient: linear-gradient(90deg, #1e1e1e 0%, #848484 100%);
+  --c-light-grey: #eeeeee;
+  --c-red: red;
+}

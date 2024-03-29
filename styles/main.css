@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
+  font-weight: var(--fw-primary);
+  background-color: var(--c-black);
+  color: var(--c-white);
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1920px;
+  padding-left: 35px;
+  padding-right: 35px;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  height: 13px;
+  font-size: var(--fs-mob-small);
+  line-height: 1;
+  color: var(--c-red);
+}

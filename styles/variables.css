@@ -19,5 +19,5 @@
   --c-red: red;
   --c-blue: #607DB7;
   /*transition*/
-  --t-base: ease-in-out .5s;
+  --t-base: ease-in-out .3s;
 }

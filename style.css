@@ -92,6 +92,7 @@
   flex-direction: column;
 }
     /* inputs */
+
 .input-field {
   width: 100%;
   border: 1px solid var(--c-light-grey);
@@ -100,6 +101,11 @@
   padding: 16px 0 16px 16px;
   color: var(--c-light-grey);
   transition: var(--t-base);
+  outline: none;
+}
+
+.input-field:focus {
+  border: 1px solid var(--c-blue);
 }
 
 .input-field:hover {
@@ -110,9 +116,6 @@
   color: var(--c-white);
 }
 
-.input-field:focus {
-  outline: none;
-}
 
 @media (max-width: 360px) {
   .input-field {

@@ -99,6 +99,11 @@
   background-color: var(--c-dark-grey);
   padding: 16px 0 16px 16px;
   color: var(--c-light-grey);
+  transition: var(--t-base);
+}
+
+.input-field:hover {
+  border: 1px solid var(--c-blue);
 }
 
 .input-field::placeholder {
@@ -125,7 +130,6 @@
 .main-wrapper-form-password {
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
 }
 
 @media (max-width: 360px) {
@@ -144,10 +148,15 @@
 }
 
 .button-help {
-  border: none;
   background: none;
   color: var(--c-white);
   text-align: end;
+  transition: var(--t-base);
+  margin-bottom: 15px;
+}
+
+.button-help:hover {
+  color: var(--c-blue);
 }
 
 @media (max-width: 360px) {
@@ -159,11 +168,17 @@
 .button-entry {
   border: 1px solid var(--c-light-grey);
   border-radius: 5px;
-  background: var(--c-gradient);
+  background-image: var(--c-gradient);
   padding: 16px 0 16px;
   color: var(--c-white);
   font-size: var(--fs-single);
   margin-bottom: 15px;
+  transition: var(--t-base);
+}
+
+.button-entry:hover {
+  border: 1px solid var(--c-blue);
+  background: var(--c-blue);
 }
 
 @media (max-width: 360px) {
@@ -176,4 +191,9 @@
   border: none;
   background: transparent;
   color: var(--c-white);
+  transition: var(--t-base);
+}
+
+.button-registration:hover {
+  color: var(--c-blue);
 }

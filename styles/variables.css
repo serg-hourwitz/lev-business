@@ -1,6 +1,6 @@
 :root {
   /* fonts */
-  --ff-primary: "Geologica";
+  --ff-primary: 'Geologica';
   --fs-primary: 16px;
   --fs-secondary: 14px;
   --fs-big: 30px;
@@ -17,4 +17,7 @@
   --c-gradient: linear-gradient(90deg, #1e1e1e 0%, #848484 100%);
   --c-light-grey: #eeeeee;
   --c-red: red;
+  --c-blue: #607DB7;
+  /*transition*/
+  --t-base: ease-in-out .5s;
 }

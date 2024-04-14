@@ -200,3 +200,20 @@
 .button-registration:hover {
   color: var(--c-blue);
 }
+
+/* rectangles */
+
+.corner {
+  position: absolute;
+}
+
+@media (max-width: 360px) {
+  .corner {
+    display: none;
+  }
+}
+
+.bottom-right-bgd {
+  top: 100%;
+  right: 0;
+}
